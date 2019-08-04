@@ -1,32 +1,96 @@
-# Prerequisites
-*.d
+# C++ objects and libs
 
-# Compiled Object files
 *.slo
 *.lo
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
-
-# Executables
+*.la
+*.lai
+*.so
 *.exe
-*.out
-*.app
+*.dll
+*.dylib
+# Qt-es
+
+build-*
+*.pro.user
+*.pro.user.*
+moc_*.cpp
+qrc_*.cpp
+Makefile
+*-build-*
+
+# Visual Studio
+.vs
+*.VC.db
+*.VC.opendb
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vsp
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+packages
+*.nupkg
+*.ncrunchsolution
+*.dot[Cc]over
+Ankh.NoLoad
+# VS Upgrade stuff
+UpgradeLog.XML
+UpgradeLog.htm
+_UpgradeReport_Files/
+
+Html5/scripts
+neurokod2/projects/client/src/tmp/*
+
+# it’s better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Generated & temporary & auxiliary files.
+ipch
+*.sdf
+*.suo
+*.opensdf
+GeneratedFiles
+Release
+Debug
+*.pdb
+Client/translations/*.qm
+deploy/packages/*
+
+# Unix editors
+*~
+\#*\#
+.\#*
+
+# MacOS specific
+.DS_Store

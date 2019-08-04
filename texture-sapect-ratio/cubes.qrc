@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CubeEntity.qml</file>
+        <file>chess.png</file>
+        <file>shaders/gl3/chessColor.frag</file>
+        <file>shaders/gl3/chessColor.vert</file>
+        <file>ChessMaterial.qml</file>
+    </qresource>
+</RCC>
